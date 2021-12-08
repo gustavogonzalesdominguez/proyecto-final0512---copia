@@ -1,0 +1,78 @@
+.collapse{
+    justify-content: end;
+    font-size: 18px;
+    color: rgb(243, 243, 243);
+}
+
+.collapse li:hover{
+    transition: all 300ms;
+    transform: scale(1.02)
+}
+.destacados__title{
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 3px grey;
+    color:black;
+    padding: 20px 20px;
+    font-size: 50px;
+    background-color: hsl(56, 97%, 52%);
+}
+.destacados{
+    padding: 10px;
+    background-color: #d2f6f8
+
+}
+.contenedorTarjetasDestacados{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+
+
+}
+
+.tarjeta p{
+    size: 90px;
+    color:black;
+    font-size: 20px;
+    background-color:rgb(59, 187, 187);
+    margin: 10px;
+    text-shadow: 3px 3px 3px grey;
+
+}
+
+.tarjeta:hover{
+    transition: all 300ms;
+    transform: scale(1.02);
+}
+
+.tarjeta img{
+    object-fit: cover;
+
+}
+
+.card{
+    justify-content: center;
+}
+
+.card-header{
+    background-color: rgb(245, 31, 131);
+    
+}
+.card-body{
+    color:#252424;
+    background-color: palevioletred;
+}
+.card-link{
+    color:white;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.nombre{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.queremos{
+    justify-content: start;
+}
