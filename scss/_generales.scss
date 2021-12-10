@@ -41,11 +41,9 @@ footer{
 }
 @keyframes slidein{
     from{
-        margin-left: 100%;
-        width: 300%;
+        width: 0%;
     }
     to{
-        margin-left: 0%;
         width: 100%;
     }
 }
