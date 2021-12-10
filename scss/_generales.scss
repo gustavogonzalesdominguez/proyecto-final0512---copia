@@ -15,7 +15,7 @@ footer{
     background-color: hsl(0, 8%, 5%);
     color: hsl(0, 0%, 100%);
     animation-duration: 3s;
-    animation-name: slidein;
+    animation-name: fadeIn;
 }
 .pie{
     display: flex;
@@ -39,11 +39,11 @@ footer{
 .Instagram{
     color:var(--instagram)
 }
-@keyframes slidein{
-    from{
-        width: 0%;
+@keyframes fadeIn {
+    from {
+      opacity: 0;
     }
-    to{
-        width: 100%;
+    to {
+       opacity: 1;
     }
-}
+  }
