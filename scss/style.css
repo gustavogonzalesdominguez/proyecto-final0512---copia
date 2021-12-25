@@ -22,8 +22,8 @@ footer {
   color: white;
   -webkit-animation-duration: 3s;
           animation-duration: 3s;
-  -webkit-animation-name: slidein;
-          animation-name: slidein;
+  -webkit-animation-name: fadeIn;
+          animation-name: fadeIn;
 }
 
 .pie {
@@ -57,25 +57,21 @@ footer {
   color: var(--instagram);
 }
 
-@-webkit-keyframes slidein {
+@-webkit-keyframes fadeIn {
   from {
-    margin-left: 100%;
-    width: 300%;
+    opacity: 0;
   }
   to {
-    margin-left: 0%;
-    width: 100%;
+    opacity: 1;
   }
 }
 
-@keyframes slidein {
+@keyframes fadeIn {
   from {
-    margin-left: 100%;
-    width: 300%;
+    opacity: 0;
   }
   to {
-    margin-left: 0%;
-    width: 100%;
+    opacity: 1;
   }
 }
 
@@ -206,7 +202,9 @@ footer {
 
 .foto {
   height: 500px;
-  width: 900px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .nosotrosTexto {
@@ -229,6 +227,7 @@ footer {
       -ms-flex-align: center;
           align-items: center;
   width: 50%;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
@@ -299,6 +298,7 @@ iframe {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  overflow: hidden;
 }
 
 .container-fluid {
