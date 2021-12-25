@@ -306,6 +306,21 @@ iframe {
   overflow: hidden;
 }
 
+.ofertas__title {
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 3px 3px 3px grey;
+  color: black;
+  padding: 20px 20px;
+  font-size: 40px;
+  background-color: #fbeb0e;
+}
+
+.ofertas {
+  padding: 10px;
+  background-color: #d2f6f8;
+}
+
 .container-fluid {
   padding: 20px;
 }
