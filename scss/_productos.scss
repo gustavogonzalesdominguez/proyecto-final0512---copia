@@ -1,38 +1,42 @@
-.container-fluid{
+.container-fluid {
     padding: 20px;
 }
-.productos__title{
+
+.productos__title {
     text-align: center;
     text-transform: uppercase;
     text-shadow: 3px 3px 3px grey;
-    color:black;
+    color: black;
     padding: 20px 20px;
     font-size: 40px;
     background-color: hsl(56, 97%, 52%);
 }
-.productos{
+
+.productos {
     padding: 10px;
     background-color: #d2f6f8;
 }
-h3{
+
+h3 {
     text-transform: uppercase;
     text-align: center;
 }
-.textoproducto{
+
+.textoproducto {
     text-align: center;
     text-transform: uppercase;
-    color:black;
+    color: black;
     font-size: 20px;
     margin: 10px;
     text-shadow: 3px 3px 3px grey;
 }
 
-.btn{
+.btn {
     display: flex;
     justify-content: center;
 }
 
-.btn:hover{
+.btn:hover {
     transition: all 300ms;
     transform: scale(1.02)
 }

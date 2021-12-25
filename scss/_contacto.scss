@@ -1,28 +1,31 @@
 /**contacto**/
 
-iframe{
+iframe {
     width: 100%;
 
 }
 
-.contacto__title{
+.contacto__title {
     text-align: center;
     text-transform: uppercase;
     text-shadow: 3px 3px 3px grey;
-    color:black;
+    color: black;
     padding: 20px 20px;
     font-size: 40px;
     background-color: hsl(56, 97%, 52%);
 }
-.contacto{
-    background-color:#d2f6f8;
+
+.contacto {
+    background-color: #d2f6f8;
     padding: 10px;
 }
-.mapa{
-    background-color: #d2f6f8;
-        .mapa__lugar{
-            width: 100%;;
-            
-        }
-}
 
+.mapa {
+    background-color: #d2f6f8;
+
+    .mapa__lugar {
+        width: 100%;
+        ;
+
+    }
+}

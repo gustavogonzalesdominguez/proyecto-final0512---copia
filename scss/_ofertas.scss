@@ -1,25 +1,27 @@
-.carousel-indicators li{
+.carousel-indicators li {
     height: 10px;
     width: 10px;
     border-radius: 25%;
     border: 2px solid blue;
 }
-.carro{
+
+.carro {
     display: flex;
     justify-content: center;
     overflow: hidden;
 }
-.ofertas__title{
+
+.ofertas__title {
     text-align: center;
     text-transform: uppercase;
     text-shadow: 3px 3px 3px grey;
-    color:black;
+    color: black;
     padding: 20px 20px;
     font-size: 40px;
     background-color: hsl(56, 97%, 52%);
 }
 
-.ofertas{
+.ofertas {
     padding: 10px;
     background-color: #d2f6f8;
 }
