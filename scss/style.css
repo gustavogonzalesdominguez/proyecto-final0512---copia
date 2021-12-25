@@ -201,16 +201,10 @@ footer {
   background-color: #d2f6f8;
 }
 
-.foto {
-  height: 500px;
-  width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
 .nosotrosTexto {
   padding: 20px;
   font-size: 20px;
+  text-align: center;
 }
 
 .contenedorNosotros {
