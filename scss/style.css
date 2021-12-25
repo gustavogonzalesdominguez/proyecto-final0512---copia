@@ -347,6 +347,12 @@ h3 {
 
 p {
   text-align: center;
+  text-transform: uppercase;
+  size: 90px;
+  color: black;
+  font-size: 20px;
+  margin: 10px;
+  text-shadow: 3px 3px 3px grey;
 }
 
 .btn {
