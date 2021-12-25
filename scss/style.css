@@ -266,18 +266,23 @@ iframe {
   width: 100%;
 }
 
-.contacto {
-  background-color: white;
+.contacto__title {
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 3px 3px 3px grey;
   color: black;
+  padding: 20px 20px;
+  font-size: 40px;
+  background-color: #fbeb0e;
 }
 
-.contacto h1 {
-  font-size: 50px;
-  color: black;
+.contacto {
+  background-color: #d2f6f8;
+  padding: 10px;
 }
 
 .mapa {
-  background-color: white;
+  background-color: #d2f6f8;
 }
 
 .mapa .mapa__lugar {
